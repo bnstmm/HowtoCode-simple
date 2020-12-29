@@ -1,0 +1,28 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname Book-3_3) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;; CONSTANTS
+(define cm-per-inch 2.54)
+(define inches-per-foot 12)
+(define feet-per-yards 3)
+(define yards-per-rod 5.5)
+(define rods-per-furlong 40)
+(define furlongs-per-mile 8)
+
+(define (inches-cm)
+  (* (inch 2.54)))
+
+(define (feet-inches)
+  (* (feet 12)))
+
+(define (yards-feet)
+  (* (yards 3)))
+
+(define (rods-yards)
+  (* (rods 5.5)))
+
+(define (furlongs-rods)
+  (* (furlongs 40)))
+
+(define (miles-furlongs)
+  (* (miles 8)))

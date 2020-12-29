@@ -1,0 +1,1 @@
+ellipse 60 30 "solid" "red"
